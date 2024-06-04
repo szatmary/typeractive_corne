@@ -32,7 +32,7 @@
 
             display-name = "Base";
             bindings = <
-&kp ESCAPE  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BACKSPACE
+&kp ESCAPE  &kp Q  &kp W  &kp E     &kp R  &kp T        &kp Y    &kp U  &kp I      &kp O    &kp P     &kp BACKSLASH
 &kp TAB     &kp A  &kp S  &kp D     &kp F  &kp G        &kp H    &kp J  &kp K      &kp L    &kp SEMI  &kp SQT
 &kp LSHFT   &kp Z  &kp X  &kp C     &kp V  &kp B        &kp N    &kp M  &kp COMMA  &kp DOT  &kp FSLH  &kp RCTRL
                           &kp LGUI  &mo 1  &kp SPACE    &kp RET  &mo 2  &kp RALT
@@ -48,10 +48,10 @@
 
             display-name = "Lower";
             bindings = <
-&none      &none   &none   &kp MINUS       &kp PLUS      &none     &kp N7        &kp N8        &kp N9        &kp HOME  &none         &kp PG_UP
-&none      &none   &none   &kp BACKSLASH   &kp ASTERISK  &none     &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp END   &kp UP_ARROW  &kp PAGE_DOWN
-&kp LSHFT  &trans  &trans  &kp UNDERSCORE  &kp EQUAL     &trans    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT  &kp DOWN      &kp RIGHT
-                           &none           &trans        &none     &kp RET       &kp N0        &kp DELETE
+&kp F1     &kp F2          &kp F3            &kp F4      &kp F5           &kp F6               &kp N7        &kp N8        &kp N9        &kp HOME  &none         &kp PG_UP
+&kp F7     &kp F8          &kp F9            &kp F10     &kp F11          &kp F12              &kp NUMBER_4  &kp N5        &kp NUMBER_6  &kp END   &kp UP_ARROW  &kp PAGE_DOWN
+&kp LSHFT  &kp C_PREVIOUS  &kp C_PLAY_PAUSE  &kp C_NEXT  &kp C_VOLUME_UP  &kp C_VOLUME_DOWN    &kp NUMBER_1  &kp NUMBER_2  &kp NUMBER_3  &kp LEFT  &kp DOWN      &kp RIGHT
+                                             &none       &trans           &none                &kp RET       &kp N0        &kp DELETE
             >;
         };
 
@@ -64,10 +64,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT  &kp CARET        &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp PLUS
-&kp TILDE        &kp GRAVE    &kp LG(Z)  &kp LG(C)   &kp LG(V)    &kp LG(X)        &none          &kp BACKSLASH     &kp LBKT              &kp RBKT               &kp MINUS       &kp EQUAL
-&kp LSHFT        &none        &none      &none       &none        &kt LG(A)        &kp LESS_THAN  &kp GREATER_THAN  &kp LBRC              &kp RBRC               &kp QUESTION    &kp SLASH
-                                         &none       &trans       &kp BACKSPACE    &none          &trans            &none
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH    &kp DOLLAR  &kp PERCENT  &kp CARET        &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp PLUS
+&kp TILDE        &kp GRAVE    &kp K_UNDO  &kp K_COPY  &kp K_PASTE  &kp K_CUT        &kp LESS_THAN  &kp GREATER_THAN  &kp LBKT              &kp RBKT               &kp MINUS       &kp EQUAL
+&kp LSHFT        &none        &none       &none       &none        &kt K_SELECT     &none          &none             &kp LBRC              &kp RBRC               &none           &none
+                                          &none       &trans       &kp BACKSPACE    &none          &trans            &none
             >;
         };
 
