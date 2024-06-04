@@ -14,7 +14,7 @@
         compatible = "zmk,combos";
 
         control {
-            bindings = <&to 3>;
+            bindings = <&mo 3>;
             key-positions = <37 40>;
         };
     };
