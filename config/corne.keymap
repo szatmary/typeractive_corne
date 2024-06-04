@@ -16,6 +16,7 @@
         control {
             bindings = <&mo 3>;
             key-positions = <37 40>;
+            layers = <3>;
         };
     };
 
@@ -63,10 +64,10 @@
 
             display-name = "Raise";
             bindings = <
-&kp EXCLAMATION  &kp AT_SIGN    &kp HASH   &kp DOLLAR  &kp PERCENT  &kp CARET        &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp PLUS
-&kp TILDE        &kp LC(GRAVE)  &kp LC(Z)  &kp LC(C)   &kp LC(V)    &kp LC(X)        &none          &kp BACKSLASH     &kp LBKT              &kp RBKT               &kp MINUS       &kp EQUAL
-&kp LSHFT        &none          &none      &none       &none        &kt LS(A)        &kp LESS_THAN  &kp GREATER_THAN  &kp LBRC              &kp RBRC               &kp QUESTION    &kp SLASH
-                                           &none       &trans       &kp BACKSPACE    &none          &trans            &none
+&kp EXCLAMATION  &kp AT_SIGN  &kp HASH   &kp DOLLAR  &kp PERCENT  &kp CARET        &kp AMPERSAND  &kp ASTERISK      &kp LEFT_PARENTHESIS  &kp RIGHT_PARENTHESIS  &kp UNDERSCORE  &kp PLUS
+&kp TILDE        &kp GRAVE    &kp LG(Z)  &kp LG(C)   &kp LG(V)    &kp LG(X)        &none          &kp BACKSLASH     &kp LBKT              &kp RBKT               &kp MINUS       &kp EQUAL
+&kp LSHFT        &none        &none      &none       &none        &kt LG(A)        &kp LESS_THAN  &kp GREATER_THAN  &kp LBRC              &kp RBRC               &kp QUESTION    &kp SLASH
+                                         &none       &trans       &kp BACKSPACE    &none          &trans            &none
             >;
         };
 
